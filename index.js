@@ -1,1 +1,3 @@
-// Code your solutions in this file
+function writeCards(array) {
+    return 'Thank you, ${array[i]}, for the wonderful surprise gift!'
+}
