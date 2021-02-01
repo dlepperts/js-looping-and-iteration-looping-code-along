@@ -5,3 +5,11 @@ function writeCards( namesArray, event ) {
     }
     return thankYouCards
 }
+
+function countDown() {
+    let numbers = []
+    for ( let i = 0; i < numbersArray.length; i++) {
+        numbers.push()
+    }
+    return numbers
+}
