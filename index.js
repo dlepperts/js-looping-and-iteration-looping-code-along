@@ -6,10 +6,10 @@ function writeCards( namesArray, event ) {
     return thankYouCards
 }
 
-function countDown() {
-    let numbers = []
-    for ( let i = 0; i < numbersArray.length; i++) {
-        numbers.push()
+function countDown( startingNumber ) {
+    while ( startingNumber > 0 ) {
+      console.log( startingNumber );
+      startingNumber -= 1;
     }
-    return numbers
+    console.log( startingNumber );
 }
